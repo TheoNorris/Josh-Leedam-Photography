@@ -1,39 +1,33 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+#Josh Leedam Photography
 
-Welcome USER_NAME,
+I am creating this project in order to showcase Josh Leedam's Photography. I will be using HTML and CSS to create a website 
+containing four pages. A home page, a page of the photographers work, a page containing a brief history of the photographer
+ and a contact page.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+ ##UX
 
-## Gitpod Reminders
+ * As a user I can see what the main focus of the website.
+ * As a user I can navigate myself to any social media the photographer has.
+ * As a user I can navigate myself through the additional pages efficiently and effectively.
+ * As a user I can view the photograpers work.
+ * As a user I can fill out a form registering for newsletters.
+ * As a user I can contact the photographer in regards to purchasing work or offering contracts
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+ ##Features
 
-`python3 -m http.server`
+ * A navigation bar allowing users to scroll through the different pages.
+ * Social links opening the associated web pages in a new window.
+ * A photo page featuring a slider to showcase the photographers work.
+ * A newsletter form for registering to receive monthly newsletters.
+ * A contact form for contacting the photographer for any forms of interest.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+##technologies used
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+*bootstrap
 
-A blue button should appear to click: *Make Public*,
+An open source toolkit for developing with HTML, CSS, and JS.
 
-Another blue button should appear to click: *Open Browser*.
+*Font Awesome
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+A toolkit for icons
