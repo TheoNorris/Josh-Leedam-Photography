@@ -50,7 +50,16 @@ text-align: center;
 ul.navbar-photo {
 margin: 0 auto;
 
+}
 
+/*--------------------------Image slider*/
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
 }
 
 /*--------------------------General*/
