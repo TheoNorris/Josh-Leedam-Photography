@@ -8,7 +8,7 @@
 
 /*--------------------------Front page*/
 
-html {
+.wrapper {
   height: 100vh;
 
   background: url("../images/trunk.jpeg") no-repeat center center fixed;
@@ -39,14 +39,22 @@ text-align: center;
 
 }
 
-nav.navbar.navbar-expand-sm {
+/*--------------------------Photo page*/
 
-    padding: 0;
-}
-ul.navbar-nav {
+.photos-header {
 
-    margin-left: 30px;
+    text-align: center;
 }
+
+
+
+    text-align: center;
+}
+
+/*--------------------------General*/
+
+
+
 
 
 
@@ -56,7 +64,7 @@ nav.navbar.navbar-expand-sm {
 
     padding: 0;
 }
-ul.navbar-nav {
+.navbar-nav.nav-front {
 
     margin-left: 30px;
 }
@@ -64,6 +72,11 @@ ul.navbar-nav {
 nav a:hover {
 
     color: #91B051;
+}
+
+nav.navbar.navbar-expand-sm {
+
+    padding: 0;
 }
 
 
@@ -97,23 +110,48 @@ font-size: 20px;
     color: #ABCCA9;
     font-size: 30px;
     padding: 0 10px;
+    margin-top: 10px;
+}
+
+h1.name {
+
+  color: #5CB04D;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 7px;
+  margin-bottom: 0px;
+
+}
+
+p.photography {
+
+   color: #1E1D1D;
+   letter-spacing: 2px;
+}
+
+li>.nav-link.photopage {
+
+color: #818181;
+
 }
 
 
 
 @media (max-width: 900px) {
-  html {
+  .wrapper {
     background: url("../images/trunk.jpeg") no-repeat center center fixed;
     position: relative;
   }
 
   div {
+    
     width: 100%;
     height: 100%;
    
   }
 
   .front-page-info {
+      margin-top: 60px;
     padding: 0px;
     text-align: center;
     top: 10px;
@@ -125,7 +163,7 @@ font-size: 20px;
     display: inline;
 }
 
-ul.navbar-nav {
+ul.navbar-nav.nav-front {
 margin: 0;
 }
 
@@ -138,6 +176,9 @@ flex-direction: column;
 
     color: #DEF9DB;;
      
+     }
 
-}
+     .social {
+     margin-right: 10px;
 
+    }
