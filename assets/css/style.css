@@ -44,17 +44,23 @@ text-align: center;
 .photos-header {
 
     text-align: center;
+    position: relative;
 }
 
+ul.navbar-photo {
+margin: 0 auto;
 
 
-    text-align: center;
 }
 
 /*--------------------------General*/
 
+hr {
 
-
+    border-top: 2px solid rgba(129, 129, 129, 0.5);
+    width: 50%;
+    margin: 0 auto;
+}
 
 
 
@@ -66,7 +72,7 @@ nav.navbar.navbar-expand-sm {
 }
 .navbar-nav.nav-front {
 
-    margin-left: 30px;
+    margin: 0 auto;
 }
 
 nav a:hover {
@@ -119,7 +125,7 @@ h1.name {
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 7px;
-  margin-bottom: 0px;
+  margin: 15px 0 0 0;
 
 }
 
@@ -127,6 +133,7 @@ p.photography {
 
    color: #1E1D1D;
    letter-spacing: 2px;
+   margin: 0 0 7px 0;
 }
 
 li>.nav-link.photopage {
