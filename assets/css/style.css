@@ -48,7 +48,23 @@ ul.navbar-nav {
     margin-left: 30px;
 }
 
+
+
 /*--------------------------Navbars*/
+
+nav.navbar.navbar-expand-sm {
+
+    padding: 0;
+}
+ul.navbar-nav {
+
+    margin-left: 30px;
+}
+
+nav a:hover {
+
+    color: #91B051;
+}
 
 
 
