@@ -130,22 +130,25 @@
     <hr />
 
     <footer>
-      <div class="container container-fluid newsletter-form">
-        <form
-          action="https://formdump.codeinstitute.net/"
-          method="POST"
-          class="form-inline"
-        >
-          <h2 class="newsletter-header text-uppercase">
+      <div class="container newsletter-form">
+        <h2 class="newsletter-header text-uppercase">
             Subscribe to my newsletter
           </h2>
-          <p class="newsletter-p">
+          <p class="newsletter-paragraph">
             Sign up to my newsletter for upcoming gallery shows, projects, tips
             and more!
           </p>
+        
+        <form
+          action="https://formdump.codeinstitute.net/"
+          method="POST"
+          class="form-inline newsletter-form"
+        >
+        
           <input
             type="text"
             id="fname"
+            class="newsletter-info"
             for="fname"
             name="first_name"
             placeholder="First Name"
@@ -153,6 +156,7 @@
           />
           <input
             type="text"
+            class="newsletter-info"
             id="lname"
             for="lname"
             name="last_name"
@@ -161,13 +165,14 @@
           />
           <input
             type="email"
+            class="newsletter-info"
             id="email"
             for="email"
             name="email_address"
             placeholder="Email"
             required
           />
-          <input type="submit" value="Sign up!" />
+          <input type="submit" class="newsletter-submit" value="Sign up!" />
         </form>
       </div>
     </footer>
