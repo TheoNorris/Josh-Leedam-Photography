@@ -162,7 +162,7 @@ color: #818181;
 @media (max-width: 900px) {
   .wrapper {
     background: url("../images/trunk.jpeg") no-repeat center center fixed;
-    position: relative;
+    
   }
 
   div {
@@ -178,7 +178,8 @@ color: #818181;
     text-align: center;
     top: 10px;
     left: 5px;
-    display: inline-block
+    display: inline-block;
+    position: fixed;
 }
 .front-page-info nav {
 
@@ -204,3 +205,21 @@ flex-direction: column;
      margin-right: 10px;
 
     }
+
+    li>.nav-link.photopage {
+
+     color: #818181;
+     display: inline;
+
+}
+
+div#carouselExampleControls.carousel.slide {
+
+    width: 90%;
+    margin: 30px auto;
+
+}
+
+
+}
+
