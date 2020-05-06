@@ -311,15 +311,24 @@ p.photography {
     float: none;
   }
 
- .thumbnails {
-
-width: 90%;
-margin: 30px auto 20px;
-
+ p.photopage-thumbnails {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-bottom: 20px;
+    color: #5cb04d;
+    letter-spacing: 1px;
+    font-size: 20px;
 
  }
 
+.thumbnails {
 
-  
+    text-align: center;
+}
+
+  .thumbnail-media {
+ 
+ display: inline-block;
+  }
 
 }
