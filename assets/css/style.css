@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Bebas+Neue:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Shadows+Into+Light:100,200,300,400,500,600,700");
 
 * {
   margin: 0;
@@ -104,19 +104,24 @@ height: 30%;
   margin: 30px 0;
   font-size: 40px;
   letter-spacing: 2px;
-  color: #def9db;
+   color: #ECECEC;
+    font-weight: 300;
 }
 
 .my-story {
   color: #fff;
   font-size: 20px;
   padding: 0 10%;
+  font-style: italic;
+  font-weight: 300;
 }
 
 .signature {
-  margin: 30px;
+  margin: 20px 0 40px;
   color: #fff;
+  font-family: "Shadows Into Light", sans-serif;
   font-size: 40px;
+  letter-spacing: 1px;
 }
 
 /*--------------------------Photo page*/
@@ -144,8 +149,8 @@ p.photopage-thumbnails:hover {
 /*--------------------------Thumbnails page*/
 
 .thumbnails {
-  margin-top: 70px;
-  margin-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /*--------------------------Thumbnail layout from https://www.w3schools.com/howto/howto_css_thumbnail.asp*/
@@ -272,7 +277,7 @@ form.form-inline {
 
 .newsletter-info {
   height: 40px;
-  margin: 0 20px;
+  margin: 0 10px;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   padding-left: 8px;
@@ -287,10 +292,15 @@ form.form-inline {
 input.newsletter-submit {
   height: 40px;
   width: 100px;
+  margin: 0 10px;
   background-color: #5cb04d;
   color: white;
 }
 
+#email {
+
+    width: 250px;
+}
 /*--------------------------media responsiveness*/
 
 @media (max-width: 900px) {
@@ -345,6 +355,12 @@ input.newsletter-submit {
     padding: 0;
   }
 
+ /*-------------------------- m.responsive about me */
+
+  .about-me-container {
+  margin: 30px 0;
+  }
+
   /*-------------------------- m.responsive photopage */
 
   div#carouselExampleControls.carousel.slide {
@@ -383,18 +399,4 @@ input.newsletter-submit {
   }
 
 
-.my-story {
-  color: #fff;
-  font-size: 20px;
-  padding: 0 10%;
-  overflow-y: scroll;
-}
 
-.signature {
-  margin: 30px;
-  color: #fff;
-  font-size: 40px;
-  overflow-y: scroll;
-}
-
-}

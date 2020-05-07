@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <!--Meta tags-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -21,15 +22,19 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!--Title-->
     <title>Josh Leedam Photography</title>
   </head>
 
   <body>
+  <!--Header-->
     <header>
       <div class="container container-fluid general-header">
         <div class="general-page-info text-uppercase">
+        <!--Heading-->
           <h1 class="name text-uppercase">Josh Leedam</h1>
           <p class="photography">Photography</p>
+          <!--Navbar-->
           <nav class="navbar navbar-expand-sm">
             <ul class="navbar-nav navbar-general">
               <li class="active nav-item mr-2">
@@ -41,7 +46,6 @@
               <li class="nav-item mr-2">
                 <a href="photos.html" class="nav-link general">Portfolio</a>
               </li>
-              
               <li class="nav-item mr-2">
                 <a href="#" class="nav-link general">Contact</a>
               </li>
@@ -51,9 +55,9 @@
       </div>
     </header>
     <hr />
+    <!--section-->
     <section>
-      <!--Slider adopted from bootstrap-->
-
+      <!--Photo carousel adopted from bootstrap-->
       <div
         id="carouselExampleControls"
         class="carousel slide"
@@ -103,6 +107,7 @@
             />
           </div>
         </div>
+        <!--Carousel controls-->
         <a
           class="carousel-control-prev"
           href="#carouselExampleControls"
@@ -122,13 +127,14 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-
+<!--Thumbnails page link-->
       <a href="thumbnails.html" class="thumbnail-hover" ><p class="photopage-thumbnails">View Thumbnails</p></a>
     </section>
 
     <hr />
-
+<!--Footer-->
     <footer>
+    <!--Newsletter form made following code institute love running tutorial-->
       <div class="container newsletter-form">
         <h2 class="newsletter-header text-uppercase">
             Subscribe to my newsletter
@@ -146,23 +152,14 @@
         
           <input
             type="text"
-            id="fname"
+            id="name"
             class="newsletter-info"
-            for="fname"
-            name="first_name"
-            placeholder="First Name"
+            for="name"
+            name="name"
+            placeholder="Name"
             required
           />
-          <input
-            type="text"
-            class="newsletter-info"
-            id="lname"
-            for="lname"
-            name="last_name"
-            placeholder="Last Name"
-            required
-          />
-          <input
+            <input
             type="email"
             class="newsletter-info"
             id="email"
@@ -174,13 +171,14 @@
           <input type="submit" class="newsletter-submit" value="Sign up!" />
         </form>
       </div>
+      <!--Social links-->
        <ul class="social-general">
             <a href="https://www.instagram.com/josh_leedam_photos/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook-square target_blank"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square target_blank"></i></a>
           </ul>
     </footer>
   </body>
-
+<!--Links for javascript placed at the bottom of the page as to load last-->
   <script
     src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
