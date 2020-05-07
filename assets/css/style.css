@@ -204,11 +204,18 @@ hr {
 .social-general {
   text-align: center;
   font-size: 30px;
-  margin: 30px 0px;
+  margin: 30px 0 20px;
 }
 
 .social-general i {
   color: #0e9900;
+}
+
+.copyright{
+text-align: center;
+    margin-bottom: 10px;
+    color: #818181;
+    font-weight: 300;
 }
 
 a:hover {
@@ -398,5 +405,5 @@ input.newsletter-submit {
     margin-top: 30px;
   }
 
-
+}
 
