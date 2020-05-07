@@ -101,7 +101,7 @@ height: 30%;
 /*--------------------------About page About Me text*/
 
 .heading-about-me {
-  margin: 30px 0;
+  margin: 30px 0 20px;
   font-size: 40px;
   letter-spacing: 2px;
    color: #ECECEC;
@@ -343,12 +343,22 @@ input.newsletter-submit {
 
  /*-------------------------- m.responsive general */
 
+  h1.name {
+
+      margin-top: 35px;
+  }
+
   ul.navbar-nav.nav-front {
     margin: 0;
   }
 
   .navbar-expand-sm .navbar-nav {
     flex-direction: column;
+  }
+
+  .navbar-general {
+
+    margin-bottom: 10px;
   }
 
  .social {
