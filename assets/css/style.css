@@ -73,6 +73,10 @@ li > .nav-link {
 
 /*--------------------------About page About Me background*/
 
+.about-me-wrapper {
+height: 30%;
+}
+
 .about-me-container {
   background: url("../images/elephant-eye2.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -83,13 +87,13 @@ li > .nav-link {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 600px;
+  height: 100%;
   margin: 70px auto 70px;
   z-index: 1;
 }
 
 .overlay-about {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
   z-index: 2;
@@ -377,4 +381,20 @@ input.newsletter-submit {
   div.container.newsletter-form {
     margin-top: 30px;
   }
+
+
+.my-story {
+  color: #fff;
+  font-size: 20px;
+  padding: 0 10%;
+  overflow-y: scroll;
+}
+
+.signature {
+  margin: 30px;
+  color: #fff;
+  font-size: 40px;
+  overflow-y: scroll;
+}
+
 }
