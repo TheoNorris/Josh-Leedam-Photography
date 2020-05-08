@@ -64,64 +64,66 @@
           class="w-100 contact-image"
           alt="leopard"
         />
-        <div class="contact-form-wrapper container">
-          <h1 class="text-uppercase">Contact form</h1>
+        <div class="contact-form-wrapper container container-fluid">
+          <h1 class="text-uppercase contact-form-header">Contact form</h1>
           <p class="contact-form-info">
             Please contact me in regards to all booking and purchasing
             inquiries. Please leave as much information as possible, for
             example, the intended use of the images, the timeframe of project
             and what the intended project is for. Thank you, I look forward to
-            hearing from you.
+            hearing from you. </p>
 
+<div class="container">
+  <div class="contact-form">
             <form
           action="https://formdump.codeinstitute.net/"
           method="POST"
-          class="form-inline contact-form"
         >
-        <h3>Name*</h3>
-          <input
-            type="text"
-            class="contact-info"
-            id="fname"
-            for="fname"
-            name="First_name"
-            required
-          />
-          <input
-            type="text"
-            class="contact-info"
-            id="lname"
-            for="lname"
-            name="last_name"
-            required
-          />
-          <span>First Name</span><span>Last Name</span>
-          <h3>Email Address*</h3>
-          <input
-            type="email"
-            class="contact-info"
-            id="contact-email"
-            for="email"
-            name="email_address"
-            placeholder="Email"
-            required
-          />
-          <h3>Subject*</h3>
-          <input
-            type="text"
-            class="contact-info"
-            id="subject"
-            for="subject"
-            name="subject"
-            required
-          />
-          <h3>Message*</h3>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
-          <input type="submit" class="newsletter-submit" value="Sign up!" />
-        </form>
-          </p>
-        </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name*</label>
       </div>
+      <div class="col-75">
+        <input type="text" id="name-contact" name="name" class="contact-form-details" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Email*</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="contact-email" name="email" class="contact-form-details" placeholder="Your Email Address..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Subject*</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="subject" name="lastname" class="contact-form-details" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Message*</label>
+      </div>
+      <div class="col-75">
+        <textarea id="message" name="message" class="contact-form-details" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row submit-div">
+      <input type="submit" class="submit-contact" value="Submit">
+    </div>
+  </form>
+</div>
+
+
+          
+        
+</div>
+</div>
+        </div>
+      
     </section>
 
     <hr />
