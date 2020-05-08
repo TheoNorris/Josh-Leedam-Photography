@@ -57,16 +57,71 @@
     </header>
     <hr />
     <section>
-     <div class="contact-section container">
-      <div class="contact-image-div"></div>
-     <img src="assets/images/king2_.jpg" class="w-100 contact-image" alt="leopard">
-     <div class="contact-form-wrapper">
-     
-     </div>
-     </div>
+      <div class="contact-section container">
+        <div class="contact-image-div"></div>
+        <img
+          src="assets/images/king2_.jpg"
+          class="w-100 contact-image"
+          alt="leopard"
+        />
+        <div class="contact-form-wrapper container">
+          <h1 class="text-uppercase">Contact form</h1>
+          <p class="contact-form-info">
+            Please contact me in regards to all booking and purchasing
+            inquiries. Please leave as much information as possible, for
+            example, the intended use of the images, the timeframe of project
+            and what the intended project is for. Thank you, I look forward to
+            hearing from you.
 
-
-
+            <form
+          action="https://formdump.codeinstitute.net/"
+          method="POST"
+          class="form-inline contact-form"
+        >
+        <h3>Name*</h3>
+          <input
+            type="text"
+            class="contact-info"
+            id="fname"
+            for="fname"
+            name="First_name"
+            required
+          />
+          <input
+            type="text"
+            class="contact-info"
+            id="lname"
+            for="lname"
+            name="last_name"
+            required
+          />
+          <span>First Name</span><span>Last Name</span>
+          <h3>Email Address*</h3>
+          <input
+            type="email"
+            class="contact-info"
+            id="contact-email"
+            for="email"
+            name="email_address"
+            placeholder="Email"
+            required
+          />
+          <h3>Subject*</h3>
+          <input
+            type="text"
+            class="contact-info"
+            id="subject"
+            for="subject"
+            name="subject"
+            required
+          />
+          <h3>Message*</h3>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <input type="submit" class="newsletter-submit" value="Sign up!" />
+        </form>
+          </p>
+        </div>
+      </div>
     </section>
 
     <hr />

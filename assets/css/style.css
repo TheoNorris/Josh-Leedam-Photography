@@ -187,7 +187,19 @@ div#carouselExampleControls.carousel.slide {
 .contact-image-div {
 
  margin: 70px auto;
+ width: 90%;
+  }
+
+  .contact-form-wrapper {
+      height: 600px;
+      border: solid 1px rgba(129, 129, 129, 0.5);
+      margin: 50px auto;
+      text-align: center;
+  }
   
+  .contact-form {
+
+      display: inline-block
   }
 
 
@@ -422,9 +434,19 @@ input.newsletter-submit {
     display: inline-block;
   }
 
+/*-------------------------- m.responsive newsletter */
+
   div.container.newsletter-form {
     margin-top: 30px;
   }
 
+/*-------------------------- m.responsive contact page */
+
+.contact-image-div {
+
+ margin: 30px auto;
+ width: 90%;
+  
+  }
 }
 
