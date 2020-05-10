@@ -48,7 +48,7 @@
               </li>
 
               <li class="nav-item mr-2">
-                <a href="#" class="nav-link general">Contact</a>
+                <a href="contact.html" class="nav-link general">Contact</a>
               </li>
             </ul>
           </nav>
@@ -56,14 +56,16 @@
       </div>
     </header>
     <hr />
+    <!--Section-->
     <section>
+      <!--Contact page image-->
       <div class="contact-section container">
-        <div class="contact-image-div"></div>
         <img
           src="assets/images/king2_.jpg"
           class="w-100 contact-image"
           alt="leopard"
         />
+        <!--Contact form-->
         <div class="contact-form-wrapper container container-fluid">
           <h1 class="text-uppercase contact-form-header">Contact form</h1>
           <p class="contact-form-info">
@@ -71,66 +73,88 @@
             inquiries. Please leave as much information as possible, for
             example, the intended use of the images, the timeframe of project
             and what the intended project is for. Thank you, I look forward to
-            hearing from you. </p>
+            hearing from you.
+          </p>
 
-<div class="container">
-  <div class="contact-form">
-            <form
-          action="https://formdump.codeinstitute.net/"
-          method="POST"
-        >
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">Name*</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="name-contact" name="name" class="contact-form-details" placeholder="Your name..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">Email*</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="contact-email" name="email" class="contact-form-details" placeholder="Your Email Address..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">Subject*</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="subject" name="lastname" class="contact-form-details" placeholder="Your last name..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Message*</label>
-      </div>
-      <div class="col-75">
-        <textarea id="message" name="message" class="contact-form-details" placeholder="Write something.." style="height:200px"></textarea>
-      </div>
-    </div>
-    <div class="row submit-div">
-      <input type="submit" class="submit-contact" value="Submit">
-    </div>
-  </form>
-</div>
-
-
-          
-        
-</div>
-</div>
+          <div class="container contact-form-container">
+            <div class="contact-form">
+              <!--Responsive form taken from https://www.w3schools.com/howto/howto_css_responsive_form.asp-->
+              <form action="https://formdump.codeinstitute.net/" method="POST">
+                <div class="row">
+                  <div class="col-25">
+                    <label for="fname">Name*</label>
+                  </div>
+                  <div class="col-75">
+                    <input
+                      type="text"
+                      id="name-contact"
+                      name="name"
+                      class="contact-form-details"
+                      placeholder="Your name.."
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="fname">Email*</label>
+                  </div>
+                  <div class="col-75">
+                    <input
+                      type="text"
+                      id="contact-email"
+                      name="email"
+                      class="contact-form-details"
+                      placeholder="Your Email Address.."
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="lname">Subject*</label>
+                  </div>
+                  <div class="col-75">
+                    <input
+                      type="text"
+                      id="subject"
+                      name="lastname"
+                      class="contact-form-details"
+                      placeholder="Your last name.."
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="subject">Message*</label>
+                  </div>
+                  <div class="col-75">
+                    <textarea
+                      id="message"
+                      name="message"
+                      class="contact-form-details"
+                      placeholder="Write something.."
+                      style="height: 200px;"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="row submit-div">
+                  <input type="submit" class="submit-contact" value="Submit" />
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-      
+      </div>
     </section>
 
     <hr />
     <!--footer-->
     <footer>
       <!--Newsletter form made following code institute love running tutorial-->
-      <div class="container newsletter-form">
+      <div class="container contact-newsletter-form">
         <h2 class="newsletter-header text-uppercase">
           Subscribe to my newsletter
         </h2>
@@ -148,7 +172,6 @@
             type="text"
             class="newsletter-info"
             id="name"
-            for="name"
             name="name"
             placeholder="Name"
             required
@@ -157,7 +180,6 @@
             type="email"
             class="newsletter-info"
             id="email"
-            for="email"
             name="email_address"
             placeholder="Email"
             required
@@ -167,10 +189,12 @@
       </div>
       <!--Social links-->
       <ul class="social-general">
-        <a href="https://www.instagram.com/josh_leedam_photos/"
+        <a href="https://www.instagram.com/josh_leedam_photos/" target="_blank"
           ><i class="fab fa-instagram"></i
         ></a>
-        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><i class="fab fa-facebook-square"></i
+        ></a>
       </ul>
       <!--Copyright text-->
       <p class="copyright">Josh Leedam © 2020</p>
