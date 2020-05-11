@@ -77,22 +77,22 @@ The same applies to my css which I have validated on [Jigsaw](https://jigsaw.w3.
 * Going through each of the pages, I clicked on each navigation bar link to ensure all pages worked individually.
 
 1. Social Media links
-* I went to the social media links on each of the pages and clicked on them to ensure they opened up in new tabs using 'target="_blank"'.
+- I went to the social media links on each of the pages and clicked on them to ensure they opened up in new tabs using 'target="_blank"'.
 
 1. Newsletter form
-* On each page  I checked the newsletter form was responsive and each input required text. I then repeated the process with each box until the form was filled.
+- On each page  I checked the newsletter form was responsive and each input required text. I then repeated the process with each box until the form was filled.
 
 1. Photopage carousel
-* On the photo page I checked if the carousel was responsive in all media sizes by scrolling through it on each media platform.
+- On the photo page I checked if the carousel was responsive in all media sizes by scrolling through it on each media platform.
 
 1. Portfolio thumbnail link
-* I navigated to the portfolio page. clicked on the thumbnail page link. ensured the page opened in the same window correctly.
+- I navigated to the portfolio page. clicked on the thumbnail page link. ensured the page opened in the same window correctly.
 
 1. Thumbnail page
-* Went through each individual thumbnail and clicked on them to ensure they were all opened in their individual tabs.
+- Went through each individual thumbnail and clicked on them to ensure they were all opened in their individual tabs.
 
 1. Contact form
-* I checked the contact form was responsive and each input required text. I completed this by trying to submit the form without any text. I then repeated the process with each box until the form was filled.
+- I checked the contact form was responsive and each input required text. I completed this by trying to submit the form without any text. I then repeated the process with each box until the form was filled.
 
 This website was tested across multiple browsers (Chrome, Safari, Firefox and Microsoft edge.) It is also responsive, having
 tested it on chrome developer tools across ipad, various iphones, samsungs etc. I have also tested it on iphone x, iphone 7, macbook
