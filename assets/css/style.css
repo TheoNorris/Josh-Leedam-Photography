@@ -1,4 +1,8 @@
+/*--------------------------Fonts*/
+
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Shadows+Into+Light:100,200,300,400,500,600,700");
+
+/*--------------------------Body*/
 
 * {
   margin: 0;
@@ -219,7 +223,6 @@ div.container.contact-newsletter-form {
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
-  
 }
 
 label {
@@ -290,6 +293,10 @@ hr {
 
 .social-general i {
   color: #0e9900;
+}
+
+li {
+  display: inline;
 }
 
 .copyright {
@@ -520,15 +527,11 @@ input.newsletter-submit {
 }
 
 @media (max-width: 812px) {
+  /*-------------------------- m.responsive contact form */
 
-/*-------------------------- m.responsive contact form */
-
-div.col-75 {
-
+  div.col-75 {
     margin-left: 25px;
-}
-
-
+  }
 }
 
 @media (max-width: 760px) {

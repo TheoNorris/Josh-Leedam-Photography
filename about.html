@@ -1,135 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!--Meta tags-->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <!--Title-->
-    <title>Josh Leedam Photography</title>
-  </head>
+    <head>
+        <!--Meta tags-->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <!--Title-->
+        <title>Josh Leedam Photography</title>
+    </head>
 
-  <body>
-    <!--Header-->
-    <header>
-      <div class="container container-fluid general-header">
-        <div class="general-page-info text-uppercase">
-          <!--Heading-->
-          <h1 class="name text-uppercase">Josh Leedam</h1>
-          <p class="photography">Photography</p>
-          <!--Navbar-->
-          <nav class="navbar navbar-expand-sm">
-            <ul class="navbar-nav navbar-general">
-              <li class="active nav-item mr-2">
-                <a href="index.html" class="nav-link general">Home</a>
-              </li>
-              <li class="nav-item mr-2">
-                <a href="about.html" class="nav-link general">About</a>
-              </li>
-              <li class="nav-item mr-2">
-                <a href="photos.html" class="nav-link general">Portfolio</a>
-              </li>
+    <body>
+        <!--Header-->
+        <header>
+            <div class="container container-fluid general-header">
+                <div class="general-page-info text-uppercase">
+                    <!--Heading-->
+                    <h1 class="name text-uppercase">Josh Leedam</h1>
+                    <p class="photography">Photography</p>
+                    <!--Navbar-->
+                    <nav class="navbar navbar-expand-sm">
+                        <ul class="navbar-nav navbar-general">
+                            <li class="active nav-item mr-2">
+                                <a href="index.html" class="nav-link general">Home</a>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a href="about.html" class="nav-link general">About</a>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a href="photos.html" class="nav-link general">Portfolio</a>
+                            </li>
 
-              <li class="nav-item mr-2">
-                <a href="contact.html" class="nav-link general">Contact</a>
-              </li>
+                            <li class="nav-item mr-2">
+                                <a href="contact.html" class="nav-link general">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <hr />
+
+        <!--Section-->
+        <section>
+            <!--About Me section-->
+            <div class="about-me-wrapper container container-fluid">
+                <div class="about-me-container">
+                    <div class="overlay-about">
+                        <h2 class="heading-about-me">About Me</h2>
+                        <p class="my-story">
+                            Originally from Brighton, England, I grew up in a vibrant city, overflowing with music, arts and culture. I have always been interested in all forms of art, originally producing music from around the age of 15
+                            and attending a music college. <br />
+                            Being a strong supporter and advocate for animal rights, my true passions are nature, wildlife and travel. During my first trip to India was when I really picked up a camera and started to take my photography more
+                            seriously and this bought me back to the animals and our natural surroundings. With the world ever-changing, I believe that our surroundings and everything in it should be documented before this all changes for
+                            future generations.
+                        </p>
+                        <p class="signature">Josh Leedam</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr />
+
+        <!--footer-->
+        <footer>
+            <!--Newsletter form made following code institute love running tutorial-->
+            <div class="container newsletter-form">
+                <h2 class="newsletter-header text-uppercase">
+                    Subscribe to my newsletter
+                </h2>
+                <p class="newsletter-paragraph">
+                    Sign up to my newsletter for upcoming gallery shows, projects, tips and more!
+                </p>
+                <form action="https://formdump.codeinstitute.net/" method="POST" class="form-inline newsletter-form">
+                    <input type="text" class="newsletter-info" id="name" name="name" placeholder="Name" required />
+                    <input type="email" class="newsletter-info" id="email" name="email_address" placeholder="Email" required />
+                    <input type="submit" class="newsletter-submit" value="Sign up!" />
+                </form>
+            </div>
+            <!--Social links-->
+            <ul class="social-general">
+                <li>
+                    <a href="https://www.instagram.com/josh_leedam_photos/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                </li>
             </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <hr />
-    <!--Section-->
-    <section>
-      <!--About Me section-->
-      <div class="about-me-wrapper container container-fluid">
-        <div class="about-me-container">
-          <div class="overlay-about">
-            <h2 class="heading-about-me">About Me</h2>
-            <p class="my-story">
-              Originally from Brighton, England, I grew up in a vibrant city,
-              overflowing with music, arts and culture. I have always been
-              interested in all forms of art, originally producing music from
-              around the age of 15 and attending a music college. <br />
-              Being a strong supporter and advocate for animal rights, my true
-              passions are nature, wildlife and travel. During my first trip to
-              India is when I really picked up a camera and started to take my
-              photography more seriously and this bought me back to the animals
-              and our natural surroundings. With the world ever-changing, I
-              believe that our surroundings and everything in it should be
-              documented before this all changes for future generations.
-            </p>
-            <p class="signature">Josh Leedam</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <hr />
-    <!--footer-->
-    <footer>
-      <!--Newsletter form made following code institute love running tutorial-->
-      <div class="container newsletter-form">
-        <h2 class="newsletter-header text-uppercase">
-          Subscribe to my newsletter
-        </h2>
-        <p class="newsletter-paragraph">
-          Sign up to my newsletter for upcoming gallery shows, projects, tips
-          and more!
-        </p>
-
-        <form
-          action="https://formdump.codeinstitute.net/"
-          method="POST"
-          class="form-inline newsletter-form"
-        >
-          <input
-            type="text"
-            class="newsletter-info"
-            id="name"
-            name="name"
-            placeholder="Name"
-            required
-          />
-          <input
-            type="email"
-            class="newsletter-info"
-            id="email"
-            name="email_address"
-            placeholder="Email"
-            required
-          />
-          <input type="submit" class="newsletter-submit" value="Sign up!" />
-        </form>
-      </div>
-      <!--Social links-->
-      <ul class="social-general">
-        <a href="https://www.instagram.com/josh_leedam_photos/" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <a href="https://www.facebook.com/" target="_blank"
-          ><i class="fab fa-facebook-square"></i
-        ></a>
-      </ul>
-      <!--Copyright text-->
-      <p class="copyright">Josh Leedam © 2020</p>
-    </footer>
-  </body>
+            <!--Copyright text-->
+            <p class="copyright">Josh Leedam © 2020</p>
+        </footer>
+    </body>
 </html>
