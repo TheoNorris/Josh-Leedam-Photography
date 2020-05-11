@@ -1,5 +1,7 @@
 ![Josh Leedam Photography](/assets/readme-documents/josh-leedam.png)
 
+
+
 I am creating this project in order to showcase Josh Leedam's Photography. I will be using HTML and CSS to create a website 
 containing five pages. A home page, a page of the photographers work, a thubnail page, a page containing a brief history of the photographer
 and a contact page.
@@ -72,7 +74,7 @@ Having written my code for each .html page I have validated them on [The W3C Mar
 The same applies to my css which I have validated on [Jigsaw](https://jigsaw.w3.org/css-validator/)
 
 1. Navbar
-* Going through each of the pages, I cliked on each navigation bar link to ensure all pages worked individually.
+* Going through each of the pages, I clicked on each navigation bar link to ensure all pages worked individually.
 
 1. Social Media links
 * I went to the social media links on each of the pages and clicked on them to ensure they opened up in new tabs using 'target="_blank"'.
