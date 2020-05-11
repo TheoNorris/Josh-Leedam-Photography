@@ -1,7 +1,4 @@
 ![Josh Leedam Photography](/assets/readme-documents/josh-leedam.png)
-Format: ![Alt Text](https://theonorris.github.io/Josh-Leedam-Photography/index.html)
-
-# Josh Leedam Photography
 
 I am creating this project in order to showcase Josh Leedam's Photography. I will be using HTML and CSS to create a website 
 containing five pages. A home page, a page of the photographers work, a thubnail page, a page containing a brief history of the photographer
@@ -48,15 +45,15 @@ HTML5 is a markup language used for structuring and presenting content on the Wo
 
 Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
 
-[Javascript](https://en.wikipedia.org/wiki/JavaScript)
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
 
-[J. Query 3.4.1](https://jquery.com/download/)
+* [J. Query 3.4.1](https://jquery.com/download/)
 
 jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
 
-[Google Fonts](https://fonts.google.com/)
+* [Google Fonts](https://fonts.google.com/)
 
 Google Fonts (previously called Google Web Fonts) is a library of 991 free licensed font families, an interactive web directory for browsing the library, 
 and APIs for conveniently using the fonts via CSS[1] and Android.
@@ -108,23 +105,20 @@ GitHub pages. You then click on settings, scroll down to GitHub pages. Select 'm
 will be deployed. You can then follow the link given in the GitHub pages section (https://theonorris.github.io/Josh-Leedam-Photography/)
 
 ![GitHub pages example](/assets/readme-documents/github-pages-screenshot.png)
-Format: ![Alt Text](url)
 
 To run locally you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/TheoNorris/Josh-Leedam-Photography.git` into your terminal.
 
 ![git clone](/assets/readme-documents/git-clone.png)
-Format: ![Alt Text](url)
 
 To cut ties with this GitHub repository, type `git remote rm origin`into the terminal.
 
 ![git remove](/assets/readme-documents/git-remove.png)
-Format: ![Alt Text](url)
 
 ## Credits
 
 ### content
 
-All content in the about me section of this site were written by me.
+All content in the about me section of this site was written by me.
 
 ### Media 
 
