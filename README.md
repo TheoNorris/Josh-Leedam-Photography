@@ -22,7 +22,7 @@ and a contact page.
  * As a user I can fill out a form registering for newsletters.
  * As a user I can contact the photographer in regards to purchasing work or offering contracts.
 
-[Wireframes](assets/readme-documents/milestone-project-one-wireframes.pdf)
+My wireframes were made using Balsamic Wireframes. You can view them [here](assets/readme-documents/milestone-project-one-wireframes.pdf)
 
 ## Existing Features
 
@@ -78,22 +78,22 @@ The same applies to my css which I have validated on [Jigsaw](https://jigsaw.w3.
 1. Navbar
 * Going through each of the pages, I clicked on each navigation bar link to ensure all pages worked individually.
 
-1. Social Media links
+2. Social Media links
 - I went to the social media links on each of the pages and clicked on them to ensure they opened up in new tabs using 'target="_blank"'.
 
-1. Newsletter form
+3. Newsletter form
 - On each page  I checked the newsletter form was responsive and each input required text. I then repeated the process with each box until the form was filled.
 
-1. Photopage carousel
+4. Photopage carousel
 - On the photo page I checked if the carousel was responsive in all media sizes by scrolling through it on each media platform.
 
-1. Portfolio thumbnail link
+5. Portfolio thumbnail link
 - I navigated to the portfolio page. clicked on the thumbnail page link. ensured the page opened in the same window correctly.
 
-1. Thumbnail page
+6. Thumbnail page
 - Went through each individual thumbnail and clicked on them to ensure they were all opened in their individual tabs.
 
-1. Contact form
+7. Contact form
 - I checked the contact form was responsive and each input required text. I completed this by trying to submit the form without any text. I then repeated the process with each box until the form was filled.
 
 This website was tested across multiple browsers (Chrome, Safari, Firefox and Microsoft edge.) It is also responsive, having

@@ -236,11 +236,12 @@ input.submit-contact {
   margin: 15px 10px;
   background-color: #5cb04d;
   color: white;
-  display: inline;
+  float: right;
 }
 
 div.submit-div {
-  display: inline-block;
+  display: flow-root;
+  margin-right: 40px;
 }
 
 .container {
@@ -249,8 +250,10 @@ div.submit-div {
 }
 
 .col-25 {
+  float: left;
   width: 25%;
   margin-top: 6px;
+  text-align: right;
 }
 
 .col-75 {
@@ -523,19 +526,39 @@ input.newsletter-submit {
   .col-75 {
     width: 100%;
     margin-top: 0;
+    text-align: center;
+  }
+
+  input.submit-contact {
+    float: none;
+  }
+
+  div.submit-div {
+    margin: 0;
+  }
+
+  /*-------------------------- m.responsive contact form */
+
+  div.col-25,
+  div.col-75 {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  div.submit-div {
+    margin-right: 25px;
   }
 }
 
 @media (max-width: 812px) {
-  /*-------------------------- m.responsive contact form */
-
   div.col-75 {
     margin-left: 25px;
   }
 
-div.col-25 {
+  div.col-25 {
     margin-left: 25px;
-}
+  }
 }
 
 @media (max-width: 760px) {
@@ -547,5 +570,14 @@ div.col-25 {
 
   div.container.contact-newsletter-form {
     display: none;
+  }
+}
+
+/*-------------------------- m.responsive newsletter form*/
+
+@media (max-width: 594px) {
+  .newsletter-form input {
+    display: block;
+    margin: 10px auto 0;
   }
 }
