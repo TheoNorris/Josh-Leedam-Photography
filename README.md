@@ -53,7 +53,7 @@ Cascading Style Sheets (CSS) is a style sheet language used for describing the p
 
 JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
 
-* [J. Query 3.4.1](https://jquery.com/download/)
+* [J. Query (3.4.1)](https://jquery.com/download/)
 
 jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
 
@@ -62,11 +62,11 @@ jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and 
 Google Fonts (previously called Google Web Fonts) is a library of 991 free licensed font families, an interactive web directory for browsing the library, 
 and APIs for conveniently using the fonts via CSS[1] and Android.
 
-* [Bootstrap](https://getbootstrap.com/)
+* [Bootstrap (4.4.1)](https://getbootstrap.com/)
 
 An open source toolkit for developing with HTML, CSS, and JS.
 
-* [Font Awesome](https://fontawesome.com/)
+* [Font Awesome (V5.6.3)](https://fontawesome.com/)
 
 A toolkit for icons.
 
