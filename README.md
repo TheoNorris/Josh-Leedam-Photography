@@ -22,7 +22,7 @@ and a contact page.
  * As a user I can fill out a form registering for newsletters.
  * As a user I can contact the photographer in regards to purchasing work or offering contracts.
 
-My wireframes were made using Balsamic Wireframes. You can view them [here](assets/readme-documents/milestone-project-one-wireframes.pdf)
+My wireframes were made using Balsamic Wireframes. You can view them [here](assets/readme-documents/milestone-project-one-wireframes.pdf).
 
 ## Existing Features
 
@@ -72,8 +72,8 @@ A toolkit for icons.
 
 ## Testing
 
-Having written my code for each .html page I have validated them on [The W3C Markup validation service](https://validator.w3.org/)
-The same applies to my css which I have validated on [Jigsaw](https://jigsaw.w3.org/css-validator/)
+Having written my code for each .html page I have validated them on [The W3C Markup validation service](https://validator.w3.org/).
+The same applies to my css which I have validated on [Jigsaw](https://jigsaw.w3.org/css-validator/).
 
 1. Navbar
 * Going through each of the pages, I clicked on each navigation bar link to ensure all pages worked individually.
@@ -126,7 +126,7 @@ All content in the about me section of this site was written by me.
 
 ### Media 
 
-All Photos were given to me by [Josh Leedam](https://www.instagram.com/josh_leedam_photos/)
+All Photos were given to me by [Josh Leedam](https://www.instagram.com/josh_leedam_photos/).
 
 ### Acknowledgements
 
