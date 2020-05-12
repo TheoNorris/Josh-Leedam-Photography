@@ -13,6 +13,8 @@ and a contact page.
  The website will be a simple, sleek and beautiful website with easy to navigate links, showcasing some of the photographers 
  most stunning work.
 
+ ![Josh Leedam Homepage](/assets/readme-documents/josh-leedam-home.png)
+
  * As a user I can see what the main focus of the website is.
  * As a user I can navigate myself to any social media the photographer has.
  * As a user I can navigate myself through the additional pages efficiently and effectively.

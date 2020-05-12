@@ -532,6 +532,10 @@ input.newsletter-submit {
   div.col-75 {
     margin-left: 25px;
   }
+
+div.col-25 {
+    margin-left: 25px;
+}
 }
 
 @media (max-width: 760px) {
